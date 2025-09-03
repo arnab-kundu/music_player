@@ -22,7 +22,7 @@ import {
     faTimes, faInfoCircle, faTrashCan,
     faPlay, faSearch, faShareAlt
 } from "@fortawesome/free-solid-svg-icons";
-import { Colors } from "react-native/Libraries/NewAppScreen";
+import Colors from '../../theme/Colors';
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import { useNavigation } from '@react-navigation/native';
 import { useDispatch, useSelector } from 'react-redux'

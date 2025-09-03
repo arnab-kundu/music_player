@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import TextTicker from 'react-native-text-ticker';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Colors from '../../theme/Colors';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faMusic, faPlay, faForwardStep, faPause } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch, useSelector } from 'react-redux'

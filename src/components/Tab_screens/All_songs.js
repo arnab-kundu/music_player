@@ -11,7 +11,7 @@ import {
   Modal,
   Pressable, TouchableWithoutFeedback, PanResponder, PermissionsAndroid
 } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Colors from '../../theme/Colors';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import {
   faHeart, faMusic, faEllipsisVertical,

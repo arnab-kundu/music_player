@@ -18,9 +18,7 @@ import {
     View,
     useColorScheme,
 } from 'react-native';
-import {
-    Colors
-} from 'react-native/Libraries/NewAppScreen';
+import Colors from '../theme/Colors';
 import { faSearch, faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const TabNavigator = ({ navigation }) => {

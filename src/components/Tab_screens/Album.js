@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, useColorScheme, TouchableOpacity, } from 'react-native';
 import { useSelector } from 'react-redux';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Colors from '../../theme/Colors';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faAngleRight, faFolder } from '@fortawesome/free-solid-svg-icons';
 const Album = ({ navigation }) => {

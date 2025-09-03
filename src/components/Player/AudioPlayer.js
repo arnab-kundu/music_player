@@ -10,7 +10,7 @@ import {
     ToastAndroid,
     StatusBar, PanResponder, Platform
 } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Colors from '../../theme/Colors';
 import LinearGradient from 'react-native-linear-gradient';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { useDispatch, useSelector } from 'react-redux'

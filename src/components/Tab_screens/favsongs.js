@@ -10,7 +10,7 @@ import {
   Modal, TouchableWithoutFeedback, Pressable
 } from 'react-native';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Colors from '../../theme/Colors';
 import { faEllipsisVertical, faMusic, faPlay } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch, useSelector } from 'react-redux'
 import { selectedSong, setIsSongPlaying, setFavouritesSongs } from '../../redux/action';
